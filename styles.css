@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tangerine:wght@400;700&display=swap');
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;    
+
+}
+nav ul a{
+    text-decoration: none;
+    color:#9C7850;    
+    color: #b1871c;
+    font-size: 15px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 450;
+}
+
+.portada{
+    display: flex;
+    flex-direction: column;  
+    background-image:url("imagenes/portada.jpg");  
+    color:white;  
+    text-align: center; 
+    padding: 70px;  
+    line-height: 25px;   
+}
+.portada h1{
+    font-size: 130px;  
+    align-items: center;  
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.portada h2{
+    font-size: 25px;
+    font-weight: 600;  
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.icono{
+    width: 75px;
+}
+#invitacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 20px; 
+    padding: 70px;
+    margin-top: 30px;
+}
+.anillo{
+    width: 90px;
+}
+#invitacion h1{
+    color:#9C7850; 
+    font-size: 32px;  
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+#invitacion p{
+    font-size: 45px;
+    line-height: 65px;
+    color:#9c7950cf; 
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal; 
+}
+.cancion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.cancion img{
+    border-radius: 1%;
+}
+.contenedor-ramo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+#vestimenta .ramo{
+    width: 250px;
+    margin-top: 90px;
+}
+.iconos-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center; 
+}
+.iconos-text h1{
+    color:#9C7850;  
+    font-size: 32px;  
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+.iconos-text p{
+    margin-top: 17px;
+    font-size: 45px;
+    line-height: 65px;
+    color:#9c7950cf; 
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal; 
+}
+.contenedor-int{
+    background-color: #70626011;
+}
+.caja-eventos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 35px;
+    padding-bottom: 75px;
+}
+.caja-ref{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.caja-ref h1{
+    color:#706260B8; 
+    font-size: 35px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.caja-ref p{
+    margin-top: 0;
+    font-size: 15px;
+    line-height: 25px;
+    color: #706260e9;
+    font-family: "Lora";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+}
+#ubicacion{
+    margin-bottom: 45px;
+}
+#ubicacion .ramo{
+    width: 250px;
+    margin-top: 140px;
+}
+.caja-mapas{
+    display: flex;
+    flex-direction: row;
+    margin: 35px;
+    margin-top: 0;
+}
+.caja-mapas iframe{
+    margin: 30px;
+    margin-top: 0;
+}
+#regalos{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    background-color: #70626011;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.botones button{
+    height: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-color: rgba(0, 0, 0, 0.479);
+    background-color: white;
+    border-radius: 50px;
+    color: #b1871c;
+    font-size: 12px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+}
+a:hover {
+    background-color: #70626011;
+  }
+button:hover{
+    border-color: #b1871c;
+    color: rgba(126, 96, 20, 0.651);
+}
+#memorias{
+    display: flex;
+    flex-direction: column;
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+}
+.caja-gal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.caja-gal img{
+    width: 250px;
+    margin: 20px;
+    border-radius: 20px;
+}
+footer .autora{
+    text-align: center;
+    margin-top: 60px;
+    color:#9C7850; 
+    font-size: 30px;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal; 
+}
+footer .md{
+    text-align: center;
+    margin-bottom: 65px;
+    font-size: 12px;
+    color: #b1871c;
+    font-family: "Lora";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+}
+
+
+
+
